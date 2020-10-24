@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    background-color: #ececec;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000000;
+    vertical-align: middle;
+}
+
+#title {
+    font-family: 'Vidaloka';
+    font-size: 30px;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+#inicio img {
+    margin-top: 46px;
+    max-width: 100%;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.profileGrid {
+    display: grid;
+    grid-template-columns: 0.5fr 0.9fr;
+    margin: 50px 100px;
+}
+
+#profileImg {
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile {
+    text-align: justify;
+}
+
+.projectGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.projectSection {
+    padding: 20px;
+}
+
+#projectImg {
+    object-fit: cover;
+    object-position: top;
+    width: 400px;
+    height: 250px;
+}
+
+.projectLinks {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.projectLinks a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.projectLinks a:hover {
+    color: #585858;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+    color: #FFF;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer span {
+    margin: 0 50px;
+}
+
+#backToTop {
+    color: white;
+    text-decoration: none;
+    margin: 0 50px;
+}
