@@ -1,13 +1,13 @@
-document.getElementById("projectImg").addEventListener("mouseover", mouseOver);
-document.getElementById("projectImg").addEventListener("mouseout", mouseOut);
+document.querySelectorAll("#projectImg").addEventListener("mouseover", mouseOver);
+document.querySelectorAll("#projectImg").addEventListener("mouseout", mouseOut);
 
 function mouseOver() {
-  document.getElementById("projectImg").style.objectPosition = "bottom";
-  document.getElementById("projectImg").style.transition = "3s";
+  document.querySelectorAll("#projectImg").style.objectPosition = "bottom";
+  document.querySelectorAll("#projectImg").style.transition = "3s";
 }
 
 function mouseOut() {
-  document.getElementById("projectImg").style.objectPosition = "top";
+  document.querySelectorAll("#projectImg").style.objectPosition = "top";
 }
 
 $(document).ready(function () {
