@@ -10,12 +10,12 @@ Este portfólio foi criado com o objetivo de expor todos os projetos feitos por 
 * <b>Projetos desenvolvidos:</b> Uma galeria dos meus projetos com links para o projeto ao vivo e/ou para o Github.
 * <b>Contato:</b> Seção que contém todos as redes sociais e formas de contato.
 
-## :wrench: Tecnologia utilizada
+## :wrench: Tecnologias utilizadas
 * VS Code;
 * HTML;
 * Bootstrap;
 * CSS;
 * JavaScript;
 
-## :dart: Construção
+## :dart: Status do projeto
 Este portfólio é um projeto em andamento e, conforme minhas habilidades forem evoluindo, também irei atualizar o site.
