@@ -89,7 +89,8 @@ h3::after{
 
 .button {
     background-color: var(--color-white);
-    border: 1px solid var(--color-red);
+    border: 2px solid var(--color-red);
+    border-radius: 10px;
     text-transform: uppercase;
     font-weight: 600;
     padding: 15px 40px;
@@ -124,13 +125,12 @@ h3::after{
 
     header {
         display: flex;
-        justify-content: space-between;
-        /* flex-direction: row-reverse; */
+        justify-content: space-around;
+        align-items: center;
     }
     
     .profile-img {
         max-width: 30%;
-        border-radius: 50%;
         margin-left: 40px;
     }
     
@@ -139,48 +139,35 @@ h3::after{
     }
     
     .hello {
-        font-size: 1.5rem;
-        margin-left: 20px;
+        font-size: 2rem;
+        margin-left: 0;
     }
-    
+
     h3::after{
-        content: "";
-        height: 1px;
-        width: 30vw;
-        background: black;
-        display: inline-block;
-        margin-left: 5%;
-        transform: translateY(-3px);
+        width: 15vw;
     }
     
     .title {
-        font-size: 2rem;
-        font-weight: 400;
-        text-align: center;
+        font-size: 4rem;
     }
     
     .description {
-        text-align: center;
-        font-weight: 400;
+        font-size: 1.3rem;
     }
     
     .call-action {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
+        flex-direction: row;
+        justify-content: space-around;
     }
     
-    .button {
-        background-color: var(--color-white);
-        border: 1px solid var(--color-red);
-        text-transform: uppercase;
-        font-weight: 600;
-        padding: 15px 40px;
-        margin-top: 15px;
-    }
-    
-    .dark-btn {
+    .button:hover {
         background-color: var(--color-red);
-        color: var(
+        color: var(--color-white);
+        transition: .3s;
+    }
+    
+    .dark-btn:hover {
+        background-color: var(--color-white);
+        color: #000000;
+    }
 }
