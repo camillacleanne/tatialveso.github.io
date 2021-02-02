@@ -15,7 +15,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-nav {
+header {
     display: flex;
     flex-direction: column;
     margin: 20px;
@@ -44,7 +44,7 @@ a.active {
     color: var(--color-red);
 }
 
-.profile-img {
+.main-img {
     max-width: 60%;
     border-radius: 50%;
     margin-left: 20%;
@@ -95,15 +95,31 @@ h3::after{
     font-weight: 600;
     padding: 15px 40px;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .dark-btn {
     background-color: var(--color-red);
     color: var(--color-white);
+    margin-bottom: 20px;
+}
+
+.about {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about p {
+    margin-bottom: 10px;
+}
+
+.about-img {
+    max-width: 100%;
 }
 
 @media(min-width: 1000px) {
-    nav {
+    header {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
@@ -123,13 +139,13 @@ h3::after{
         color: var(--color-lightred);
     }
 
-    header {
+    main {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
     
-    .profile-img {
+    .main-img {
         max-width: 30%;
         margin-left: 40px;
     }
@@ -169,5 +185,14 @@ h3::after{
     .dark-btn:hover {
         background-color: var(--color-white);
         color: #000000;
+    }
+
+    .about {
+        text-align: left;
+        margin-right: 30px;
+    }
+    
+    .about-img {
+        max-width: 50%;
     }
 }
