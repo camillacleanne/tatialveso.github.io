@@ -101,7 +101,6 @@ h3::after{
 .dark-btn {
     background-color: var(--color-red);
     color: var(--color-white);
-    margin-bottom: 20px;
 }
 
 .about {
@@ -142,6 +141,30 @@ h2 {
     text-transform: uppercase;
     font-size: 1.5rem;
     letter-spacing: 1px;
+}
+
+.project-box {
+    background-color: var(--color-lightred);
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.social-icon {
+    color: (var(--color-black));
+    text-decoration: none;
+}
+
+.fa {
+    font-size: 50px;
+    margin: 10px;
 }
 
 @media(min-width: 1000px) {
@@ -235,5 +258,34 @@ h2 {
     .skills {
         grid-template-columns: repeat(5, 1fr);
         margin-top: 30px;
+    }
+
+    .project-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .social-media {
+        display: block;
+    }
+
+    .social-media>h2 {
+        margin-bottom: 150px;
+    }
+    
+    .social-icon {
+        color: (var(--color-black));
+        text-decoration: none;
+        margin: 80px;
+    }
+
+    .social-icon:hover {
+        color: var(--color-red);
+        transition: .3s;
+    }
+    
+    .fa {
+        font-size: 50px;
+        margin: 10px;
     }
 }
